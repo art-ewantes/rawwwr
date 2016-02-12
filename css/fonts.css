@@ -18,3 +18,23 @@
   font-style: normal;
   font-weight: 600;
   src: url("../fonts/RalewaySemiBold/RalewaySemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewaySemiBold/RalewaySemiBold.woff") format("woff"), url("../fonts/RalewaySemiBold/RalewaySemiBold.ttf") format("truetype"); }
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/NotoSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansRegular.woff") format("woff"), url("../fonts/NotoSansRegular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/MontseratRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MontseratRegular.woff") format("woff"), url("../fonts/MontseratRegular.ttf") format("truetype"); }
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/DistractorRoman.eot?#iefix") format("embedded-opentype"), url("../fonts/DistractorRoman.woff") format("woff"), url("../fonts/DistractorRoman.ttf") format("truetype"); }
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Teko.eot?#iefix") format("embedded-opentype"), url("../fonts/Teko.woff") format("woff"), url("../fonts/Teko.ttf") format("truetype"); }

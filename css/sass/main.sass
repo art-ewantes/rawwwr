@@ -1,5 +1,17 @@
 @import "bourbon/bourbon"
 
+$main_color: #666
+$nth_color: #37a000
+$nth_light: #84d056
+@extend:.before
+	content: ''
+	width: 100%
+	height: 100%
+	position: absolute
+	z-index: 15
+	bottom: 0
+	left: 0
+	border-bottom: 1px solid #000
 body
 	font-family: "Raleway", sans-serif
 	font-weight: normal
@@ -20,12 +32,217 @@ body textarea:required:valid
 	display: none
 
 .main_head
+	position: relative
+	min-height: 600px
+	padding-top: 25px
+.logo_container
+	width: auto
+	height: auto
+	float: left
+	img
+		position: relative
+		width: 76px
+		height: 76px
+		z-index: 15
+		
+
+.toggle_mnu
+	width: 60px
+	height: 60px
+	position: fixed
+	z-index: 100
+	border: 1px solid $nth_light
+	right: 20px
+	top: 25px
+	background-color: transparent
+	span
+		display: block
+
+
+$w: 28px
+$h: 3px
+
+.sandwich 
+	width: $w
+	height: $w
+	position: absolute
+	top: 8px
+	bottom: 0
+	left: 0
+	right: 0
+	margin: auto
+	z-index: 200
+
+.sw-topper
+	position: relative
+	top: 0
+	width: $w 
+	height: $h
+	background: $nth_light
+	border: none
+	border-radius: 4px 4px 4px 4px
+	transition: transform 0.5s, top 0.2s
+	display: block
+			
+	//transition-delay: 0.2s, 0s
+.sw-bottom
+	position: relative
+	width: $w
+	height: $h
+	top: $h * 2.2
+	background: $nth_light
+	border: none
+	border-radius: 4px 4px 4px 4px
+	transition: transform 0.5s, top 0.2s
+	transition-delay: 0.2s, 0s
+.sw-footer
+	position: relative
+	width: $w
+	height: $h
+	top: $h * 4.5
+	background: $nth_light
+	border: none
+	border-radius: 4px 4px 4px 4px
+	transition: all 0.5s
+	transition-delay: 0.1s
+.sandwich.active
+	.sw-topper
+		top: 9px
+		transform: rotate(-45deg)
+	.sw-bottom
+		top: 6px
+		transform: rotate(45deg)
+	.sw-footer
+		opacity: 0
+		top: 0
+		transform: rotate(180deg)
+.top_mnu
+	position: fixed
 	width: 100%
-	height: 100vh
-	background-image: url(../images/bg.png)
-	background-size: cover
-	background-position: center
-	background-repeat: no-repeat 
-	
+	height: 100%
+	background-color: rgba(0,0,0,.85)
+	z-index: 50
+	right: 0
+	top: 0
+	display: none
+	ul,
+	li
+		list-style-type: none
+		padding: 0
+		margin: 0
+	ul
+		margin-top: 180px
+		text-align: center
+		+animation-duration(.01s)
+		li
+			&:nth-child(1) a
+				+animation-delay(0)
+			&:nth-child(2) a
+				+animation-delay(.1s)
+			&:nth-child(3) a
+				+animation-delay(.2s)
+			&:nth-child(4) a
+				+animation-delay(.3s)
+			&:nth-child(5) a
+				+animation-delay(.4s)				
+		a
+			color: #fff
+			display: block
+			text-transform: uppercase
+			font-size: 12px
+			font-family: "NotoSansRegular"
+			opacity: 0
+			position: relative
+			height: 60px
+			outline: none
+			letter-spacing: 3px
+		a:hover
+			color: $nth_light
+			span
+				display: block
+				position: relative
+				top: -40px
+				left: 0
+				height: 100%
+				+transition(all 0.5s ease)
+				&:hover
+					background-color: rgba(255,255,255,.08)		
+
+
+
+.loader
+	background: none repeat scroll 0 0 #ffffff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+	.loader_inner
+		background-image: url("../images/preloader.gif")
+		background-size: cover
+		background-repeat: no-repeat
+		background-posirion: center center
+		background-color: #fff
+		height: 64px
+		width: 64px
+		margin-top: -30px
+		margin-left: -30px
+		left: 50%
+		top: 50%
+		position: absolute
+
+.mnu_footer
+	width: 100%
+	min-height: 150px
+	background-color: #bfbdbd
+	padding: 30px 0 0 0
+.wrap_logo
+	position: relative
+	width: 100%
+	height: auto
+	text-align: center
+	padding: 0 0 35px 0
+	&:after
+		content: ''
+		width: 100%
+		height: 20px
+		position: absolute
+		z-index: 15
+		bottom: 0
+		left: 0
+		border-bottom: 2px solid #6f6b6d
+	img
+		width: 76px
+		height: 76px
+.wrap_description_footer
+	text-align: center
+	h6
+		color: #767676
+		font-size: em(13px)
+		font-family: "NotoSansRegular"
+section
+	padding: 120px 0 120px 0	
+	background-color: #fff
+
+.title_section
+	width: 100%
+	height: auto
+	padding: 15px 17px
+	border: 4px solid #91d25d
+	text-align: center
+	margin-top: 15px
+	h1
+		text-transform: uppercase
+		font-size: em(65px)
+		color: #91d25d
+		margin: 0
+		padding: 0
+		display: inline-block
+		line-height: 72px
+		font-family: "MontseratRegular"
+
 
 	
