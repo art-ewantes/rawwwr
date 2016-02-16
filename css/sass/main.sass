@@ -1,6 +1,7 @@
 @import "bourbon/bourbon"
 
-$main_color: #666
+$main_color: #91d25d
+$silver: #4c594f
 $nth_color: #37a000
 $nth_light: #84d056
 @extend:.before
@@ -13,7 +14,7 @@ $nth_light: #84d056
 	left: 0
 	border-bottom: 1px solid #000
 body
-	font-family: "Raleway", sans-serif
+	font-family: "GothamRegular", sans-serif
 	font-weight: normal
 	font-size: 14px
 	min-width: 320px
@@ -51,7 +52,7 @@ body textarea:required:valid
 	height: 60px
 	position: fixed
 	z-index: 100
-	border: 1px solid $nth_light
+	border: 2px solid #34b93d
 	right: 20px
 	top: 25px
 	background-color: transparent
@@ -78,7 +79,7 @@ $h: 3px
 	top: 0
 	width: $w 
 	height: $h
-	background: $nth_light
+	background: #34b93d
 	border: none
 	border-radius: 4px 4px 4px 4px
 	transition: transform 0.5s, top 0.2s
@@ -90,7 +91,7 @@ $h: 3px
 	width: $w
 	height: $h
 	top: $h * 2.2
-	background: $nth_light
+	background: #34b93d
 	border: none
 	border-radius: 4px 4px 4px 4px
 	transition: transform 0.5s, top 0.2s
@@ -100,7 +101,7 @@ $h: 3px
 	width: $w
 	height: $h
 	top: $h * 4.5
-	background: $nth_light
+	background: #34b93d
 	border: none
 	border-radius: 4px 4px 4px 4px
 	transition: all 0.5s
@@ -150,14 +151,14 @@ $h: 3px
 			display: block
 			text-transform: uppercase
 			font-size: 12px
-			font-family: "NotoSansRegular"
+			font-family: "GothamRegular"
 			opacity: 0
 			position: relative
 			height: 60px
 			outline: none
 			letter-spacing: 3px
 		a:hover
-			color: $nth_light
+			color: $main_color
 			span
 				display: block
 				position: relative
@@ -197,7 +198,7 @@ $h: 3px
 .mnu_footer
 	width: 100%
 	min-height: 150px
-	background-color: #bfbdbd
+	background-color: #eeeeee
 	padding: 30px 0 0 0
 .wrap_logo
 	position: relative
@@ -222,34 +223,87 @@ $h: 3px
 	h6
 		color: #767676
 		font-size: em(13px)
-		font-family: "NotoSansRegular"
+		font-family: "GothamRegular"
 section
-	padding: 120px 0 120px 0	
+	padding: 80px 0 80px 0	
 	background-color: #fff
 
 .title_section
 	width: 100%
 	height: auto
 	padding: 15px 17px
-	border: 4px solid #91d25d
+	border: 4px solid $main_color
 	text-align: center
-	margin-top: 15px
+	margin-top: 40px
+	margin-bottom: 40px
 	h1
 		text-transform: uppercase
 		font-size: em(65px)
-		color: #91d25d
+		color: $main_color
 		margin: 0
 		padding: 0
 		display: inline-block
 		line-height: 72px
-		font-family: "MontseratRegular"
+		letter-spacing: 0px
+		font-family: "GothamLight"
+		font-weight: 600
 
-// .content_us
-// 	img
-// 		display: inline-block
-// 		vertical-align: middle
-// 	span
-// 		display: inline-block	
-// 		vertical-align: middle
+.content_us
+	font-family: "GothamRegular"
+	letter-spacing: 0
+	font-size: em(28px)
+	text-align: center
+	color: $silver
+	h1
+		font-family: "GothamBold"
+		letter-spacing: 0
+		padding: 0
+		margin: 0
+		display: inline-block
+		font-size: em(45px)
+		font-weight: 600
+		text-transform: uppercase
+		span
+			color: #5cca00
+	span
+		font-weight: 600
+	p
+		color: $silver
+		letter-spacing: 0
+
+#_features
+	background-color: $main-color
+	width: 100%
+	height: auto
+	text-align: center
+	h2
+		color: #fff
+		font-family: "GothamRegular"
+		font-size: em(30px)
+		padding: 0
+		margin: 0
+
+#_features 
+	color: #fff
+	text-align: center
+	h3
+		font-size: em(23px)
+	p 
+		font-size: em(16px)
+	i
+		&:before
+			text-align: center
+			margin: 0
+			padding: 0
+			font-size: em(100px)
+			font-weight: 400
+
+.resize
+	padding: 0 10% 0 10%
+
+
+
+
+
 
 	

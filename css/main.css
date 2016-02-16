@@ -8,7 +8,7 @@
   left: 0;
   border-bottom: 1px solid #000; }
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "GothamRegular", sans-serif;
   font-weight: normal;
   font-size: 14px;
   min-width: 320px;
@@ -47,7 +47,7 @@ body textarea:required:valid {
   height: 60px;
   position: fixed;
   z-index: 100;
-  border: 1px solid #84d056;
+  border: 2px solid #34b93d;
   right: 20px;
   top: 25px;
   background-color: transparent; }
@@ -70,7 +70,7 @@ body textarea:required:valid {
   top: 0;
   width: 28px;
   height: 3px;
-  background: #84d056;
+  background: #34b93d;
   border: none;
   border-radius: 4px 4px 4px 4px;
   transition: transform 0.5s, top 0.2s;
@@ -81,7 +81,7 @@ body textarea:required:valid {
   width: 28px;
   height: 3px;
   top: 6.6px;
-  background: #84d056;
+  background: #34b93d;
   border: none;
   border-radius: 4px 4px 4px 4px;
   transition: transform 0.5s, top 0.2s;
@@ -92,7 +92,7 @@ body textarea:required:valid {
   width: 28px;
   height: 3px;
   top: 13.5px;
-  background: #84d056;
+  background: #34b93d;
   border: none;
   border-radius: 4px 4px 4px 4px;
   transition: all 0.5s;
@@ -154,14 +154,14 @@ body textarea:required:valid {
       display: block;
       text-transform: uppercase;
       font-size: 12px;
-      font-family: "NotoSansRegular";
+      font-family: "GothamRegular";
       opacity: 0;
       position: relative;
       height: 60px;
       outline: none;
       letter-spacing: 3px; }
     .top_mnu ul a:hover {
-      color: #84d056; }
+      color: #91d25d; }
       .top_mnu ul a:hover span {
         display: block;
         position: relative;
@@ -201,7 +201,7 @@ body textarea:required:valid {
 .mnu_footer {
   width: 100%;
   min-height: 150px;
-  background-color: #bfbdbd;
+  background-color: #eeeeee;
   padding: 30px 0 0 0; }
 
 .wrap_logo {
@@ -228,10 +228,10 @@ body textarea:required:valid {
   .wrap_description_footer h6 {
     color: #767676;
     font-size: 0.8125em;
-    font-family: "NotoSansRegular"; }
+    font-family: "GothamRegular"; }
 
 section {
-  padding: 120px 0 120px 0;
+  padding: 80px 0 80px 0;
   background-color: #fff; }
 
 .title_section {
@@ -240,7 +240,8 @@ section {
   padding: 15px 17px;
   border: 4px solid #91d25d;
   text-align: center;
-  margin-top: 15px; }
+  margin-top: 40px;
+  margin-bottom: 40px; }
   .title_section h1 {
     text-transform: uppercase;
     font-size: 4.0625em;
@@ -249,4 +250,58 @@ section {
     padding: 0;
     display: inline-block;
     line-height: 72px;
-    font-family: "MontseratRegular"; }
+    letter-spacing: 0px;
+    font-family: "GothamLight";
+    font-weight: 600; }
+
+.content_us {
+  font-family: "GothamRegular";
+  letter-spacing: 0;
+  font-size: 1.75em;
+  text-align: center;
+  color: #4c594f; }
+  .content_us h1 {
+    font-family: "GothamBold";
+    letter-spacing: 0;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    font-size: 2.8125em;
+    font-weight: 600;
+    text-transform: uppercase; }
+    .content_us h1 span {
+      color: #5cca00; }
+  .content_us span {
+    font-weight: 600; }
+  .content_us p {
+    color: #4c594f;
+    letter-spacing: 0; }
+
+#_features {
+  background-color: #91d25d;
+  width: 100%;
+  height: auto;
+  text-align: center; }
+  #_features h2 {
+    color: #fff;
+    font-family: "GothamRegular";
+    font-size: 1.875em;
+    padding: 0;
+    margin: 0; }
+
+#_features {
+  color: #fff;
+  text-align: center; }
+  #_features h3 {
+    font-size: 1.4375em; }
+  #_features p {
+    font-size: 1em; }
+  #_features i:before {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 6.25em;
+    font-weight: 400; }
+
+.resize {
+  padding: 0 10% 0 10%; }

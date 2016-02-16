@@ -1,40 +1,20 @@
 @font-face {
-  font-family: "Raleway";
+  font-family: "GothamRegular";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/RalewayRegular/RalewayRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayRegular/RalewayRegular.woff") format("woff"), url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype"); }
+  src: url("../fonts/GothamProRegular/GothamProRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"), url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype"); }
 @font-face {
-  font-family: "Raleway";
+  font-family: "GothamBold";
   font-style: normal;
   font-weight: bold;
-  src: url("../fonts/RalewayBold/RalewayBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayBold/RalewayBold.woff") format("woff"), url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype"); }
+  src: url("../fonts/GothamProBold/GothamProBold.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProBold/GothamProBold.woff") format("woff"), url("../fonts/GothamProBold/GothamProBold.ttf") format("truetype"); }
 @font-face {
-  font-family: "Raleway";
+  font-family: "GothamLight";
   font-style: normal;
   font-weight: 300;
-  src: url("../fonts/RalewayLight/RalewayLight.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewayLight/RalewayLight.woff") format("woff"), url("../fonts/RalewayLight/RalewayLight.ttf") format("truetype"); }
+  src: url("../fonts/GothamProLight/GothamProLight.eot?#iefix") format("embedded-opentype"), url("../fonts/GothamProLight/GothamProLight.woff") format("woff"), url("../fonts/GothamProLight/GothamProLight.ttf") format("truetype"); }
 @font-face {
-  font-family: "Raleway";
+  font-family: "Flaticons";
   font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/RalewaySemiBold/RalewaySemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RalewaySemiBold/RalewaySemiBold.woff") format("woff"), url("../fonts/RalewaySemiBold/RalewaySemiBold.ttf") format("truetype"); }
-@font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/NotoSansRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/NotoSansRegular.woff") format("woff"), url("../fonts/NotoSansRegular.ttf") format("truetype"); }
-@font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/MontseratRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MontseratRegular.woff") format("woff"), url("../fonts/MontseratRegular.ttf") format("truetype"); }
-@font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/DistractorRoman.eot?#iefix") format("embedded-opentype"), url("../fonts/DistractorRoman.woff") format("woff"), url("../fonts/DistractorRoman.ttf") format("truetype"); }
-@font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/Teko.eot?#iefix") format("embedded-opentype"), url("../fonts/Teko.woff") format("woff"), url("../fonts/Teko.ttf") format("truetype"); }
+  font-weight: normal;
+  src: url("../fonts/Flaticon/flaticon.eot?#iefix") format("embedded-opentype"), url("../fonts/Flaticon/flaticon.woff") format("woff"), url("../fonts/Flaticon/flaticon.ttf") format("truetype"); }
