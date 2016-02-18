@@ -50,7 +50,8 @@ body textarea:required:valid {
   border: 2px solid #34b93d;
   right: 20px;
   top: 25px;
-  background-color: transparent; }
+  background-color: transparent;
+  outline: none; }
   .toggle_mnu span {
     display: block; }
 
