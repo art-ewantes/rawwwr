@@ -4,6 +4,10 @@ $main_color: #91d25d
 $silver: #4c594f
 $nth_color: #37a000
 $nth_light: #84d056
+
+*
+	margin: 0
+	padding: 0
 @extend:.before
 	content: ''
 	width: 100%
@@ -246,13 +250,11 @@ section
 		display: inline-block
 		line-height: 72px
 		letter-spacing: 0px
-		font-family: "GothamLight"
 		font-weight: 600
 
 .content_us
 	font-family: "GothamRegular"
 	letter-spacing: 0
-	font-size: em(28px)
 	text-align: center
 	color: $silver
 	h1
@@ -261,15 +263,20 @@ section
 		padding: 0
 		margin: 0
 		display: inline-block
-		font-size: em(45px)
+		font-size: em(50px)
 		font-weight: 600
 		text-transform: uppercase
+		padding-right: 9px
 		span
 			color: #5cca00
-	span
+	>span
 		font-weight: 600
+		font-size: em(28px)
 	p
 		color: $silver
+		padding-top: 50px
+		margin: 0
+		font-size: em(26px)
 		letter-spacing: 0
 
 #_features
@@ -289,8 +296,10 @@ section
 	text-align: center
 	h3
 		font-size: em(23px)
+		padding: 30px 0 28px 0
 	p 
 		font-size: em(16px)
+		font-family: "GothamLight"
 	i
 		&:before
 			text-align: center
@@ -301,6 +310,52 @@ section
 
 .resize
 	padding: 0 10% 0 10%
+
+#_technology
+	h1
+		text-align: center
+		font-size: em(33px)
+		font-family: "GothamLight"
+		letter-spacing: 1px
+
+.container_tech
+	min-height: 400px
+	max-width: 290px
+	margin: 0 auto
+	border: 6px solid $main_color
+	margin-top: 50px
+	margin-bottom: 50px
+	text-align: center
+	.tech_wrapp
+		min-height: 160px
+		position: relative
+		background-size: 100%
+		background-position: top center
+		text-align: center
+		background-repeat: no-repeat
+		padding-bottom: 35px
+		img
+			position: absolute
+			bottom: 50%
+			transform: translateY(125%)
+			left: 35%
+	.tech_html
+		background-image: url("../images/html_bg.png")
+	.tech_js
+		background-image: url("../images/js_bg.png")
+	.tech_preroc
+		background-image: url("../images/preproc_bg.png")
+	.tech_bottom
+		padding: 40px
+		h3
+			color: $silver
+			font-size: em(25px)
+		p
+			margin-top: 20px
+			font-family: "GothamLight"
+			font-weight: 600
+			color: $main_color
+			font-size: em(17px)
 
 
 

@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 @extend:.before {
   content: "";
   width: 100%;
@@ -252,13 +256,11 @@ section {
     display: inline-block;
     line-height: 72px;
     letter-spacing: 0px;
-    font-family: "GothamLight";
     font-weight: 600; }
 
 .content_us {
   font-family: "GothamRegular";
   letter-spacing: 0;
-  font-size: 1.75em;
   text-align: center;
   color: #4c594f; }
   .content_us h1 {
@@ -267,15 +269,20 @@ section {
     padding: 0;
     margin: 0;
     display: inline-block;
-    font-size: 2.8125em;
+    font-size: 3.125em;
     font-weight: 600;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    padding-right: 9px; }
     .content_us h1 span {
       color: #5cca00; }
-  .content_us span {
-    font-weight: 600; }
+  .content_us > span {
+    font-weight: 600;
+    font-size: 1.75em; }
   .content_us p {
     color: #4c594f;
+    padding-top: 50px;
+    margin: 0;
+    font-size: 1.625em;
     letter-spacing: 0; }
 
 #_features {
@@ -294,9 +301,11 @@ section {
   color: #fff;
   text-align: center; }
   #_features h3 {
-    font-size: 1.4375em; }
+    font-size: 1.4375em;
+    padding: 30px 0 28px 0; }
   #_features p {
-    font-size: 1em; }
+    font-size: 1em;
+    font-family: "GothamLight"; }
   #_features i:before {
     text-align: center;
     margin: 0;
@@ -306,3 +315,48 @@ section {
 
 .resize {
   padding: 0 10% 0 10%; }
+
+#_technology h1 {
+  text-align: center;
+  font-size: 2.0625em;
+  font-family: "GothamLight";
+  letter-spacing: 1px; }
+
+.container_tech {
+  min-height: 400px;
+  max-width: 290px;
+  margin: 0 auto;
+  border: 6px solid #91d25d;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center; }
+  .container_tech .tech_wrapp {
+    min-height: 160px;
+    position: relative;
+    background-size: 100%;
+    background-position: top center;
+    text-align: center;
+    background-repeat: no-repeat;
+    padding-bottom: 35px; }
+    .container_tech .tech_wrapp img {
+      position: absolute;
+      bottom: 50%;
+      transform: translateY(125%);
+      left: 35%; }
+  .container_tech .tech_html {
+    background-image: url("../images/html_bg.png"); }
+  .container_tech .tech_js {
+    background-image: url("../images/js_bg.png"); }
+  .container_tech .tech_preroc {
+    background-image: url("../images/preproc_bg.png"); }
+  .container_tech .tech_bottom {
+    padding: 40px; }
+    .container_tech .tech_bottom h3 {
+      color: #4c594f;
+      font-size: 1.5625em; }
+    .container_tech .tech_bottom p {
+      margin-top: 20px;
+      font-family: "GothamLight";
+      font-weight: 600;
+      color: #91d25d;
+      font-size: 1.0625em; }
