@@ -29,7 +29,13 @@ $(document).ready(function() {
 			$(".top_mnu li a").addClass("fadeInUp animated");
 		};
 	});
-	
+	$(".title_section").animated("fadeInLeft", "fadeOutLeft");
+	$(".content_us").animated("fadeInRight", "fadeOutRight");
+	$(".anim_tada").animated("tada", "fadeOutUp");
+	$(".animation_1").animated("fadeInLeft", "fadeOutLeft");
+	$(".animation_2").animated("fadeInDown", "fadeOutUp");
+	$(".animation_3").animated("fadeInRight", "fadeOutRight");
+	$(".tech_wrapp").animated("zoomIn", "zoomOut");
 	
 });
 $(window).load(function() {

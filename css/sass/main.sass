@@ -56,7 +56,7 @@ body textarea:required:valid
 	height: 60px
 	position: fixed
 	z-index: 100
-	border: 2px solid #34b93d
+	border: 2px solid $main_color
 	right: 20px
 	top: 25px
 	background-color: transparent
@@ -84,7 +84,7 @@ $h: 3px
 	top: 0
 	width: $w 
 	height: $h
-	background: #34b93d
+	background: $main_color
 	border: none
 	border-radius: 4px 4px 4px 4px
 	transition: transform 0.5s, top 0.2s
@@ -96,7 +96,7 @@ $h: 3px
 	width: $w
 	height: $h
 	top: $h * 2.2
-	background: #34b93d
+	background: $main_color
 	border: none
 	border-radius: 4px 4px 4px 4px
 	transition: transform 0.5s, top 0.2s
@@ -106,7 +106,7 @@ $h: 3px
 	width: $w
 	height: $h
 	top: $h * 4.5
-	background: #34b93d
+	background: $main_color
 	border: none
 	border-radius: 4px 4px 4px 4px
 	transition: all 0.5s
@@ -230,6 +230,9 @@ $h: 3px
 		font-size: em(13px)
 		font-family: "GothamRegular"
 section
+	width: 100%
+	height: auto
+	overflow: hidden
 	padding: 80px 0 80px 0	
 	background-color: #fff
 
@@ -280,7 +283,7 @@ section
 		letter-spacing: 0
 
 #_features
-	background-color: $main-color
+	background-color: #52a028
 	width: 100%
 	height: auto
 	text-align: center
@@ -292,14 +295,20 @@ section
 		margin: 0
 
 #_features 
+	width: 100%
+	height: auto
 	color: #fff
 	text-align: center
 	h3
 		font-size: em(23px)
 		padding: 30px 0 28px 0
+		color: #b0e44f
 	p 
-		font-size: em(16px)
+		font-size: em(14px)
 		font-family: "GothamLight"
+		text-transform: uppercase
+		// font-weight: 600
+		// color: $silver
 	i
 		&:before
 			text-align: center
@@ -312,6 +321,8 @@ section
 	padding: 0 10% 0 10%
 
 #_technology
+	width: 100%
+	height: auto
 	h1
 		text-align: center
 		font-size: em(33px)
@@ -354,7 +365,7 @@ section
 			margin-top: 20px
 			font-family: "GothamLight"
 			font-weight: 600
-			color: $main_color
+			color: $silver
 			font-size: em(17px)
 
 

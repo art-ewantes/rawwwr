@@ -51,7 +51,7 @@ body textarea:required:valid {
   height: 60px;
   position: fixed;
   z-index: 100;
-  border: 2px solid #34b93d;
+  border: 2px solid #91d25d;
   right: 20px;
   top: 25px;
   background-color: transparent;
@@ -75,7 +75,7 @@ body textarea:required:valid {
   top: 0;
   width: 28px;
   height: 3px;
-  background: #34b93d;
+  background: #91d25d;
   border: none;
   border-radius: 4px 4px 4px 4px;
   transition: transform 0.5s, top 0.2s;
@@ -86,7 +86,7 @@ body textarea:required:valid {
   width: 28px;
   height: 3px;
   top: 6.6px;
-  background: #34b93d;
+  background: #91d25d;
   border: none;
   border-radius: 4px 4px 4px 4px;
   transition: transform 0.5s, top 0.2s;
@@ -97,7 +97,7 @@ body textarea:required:valid {
   width: 28px;
   height: 3px;
   top: 13.5px;
-  background: #34b93d;
+  background: #91d25d;
   border: none;
   border-radius: 4px 4px 4px 4px;
   transition: all 0.5s;
@@ -236,6 +236,9 @@ body textarea:required:valid {
     font-family: "GothamRegular"; }
 
 section {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
   padding: 80px 0 80px 0;
   background-color: #fff; }
 
@@ -286,7 +289,7 @@ section {
     letter-spacing: 0; }
 
 #_features {
-  background-color: #91d25d;
+  background-color: #52a028;
   width: 100%;
   height: auto;
   text-align: center; }
@@ -298,14 +301,18 @@ section {
     margin: 0; }
 
 #_features {
+  width: 100%;
+  height: auto;
   color: #fff;
   text-align: center; }
   #_features h3 {
     font-size: 1.4375em;
-    padding: 30px 0 28px 0; }
+    padding: 30px 0 28px 0;
+    color: #b0e44f; }
   #_features p {
-    font-size: 1em;
-    font-family: "GothamLight"; }
+    font-size: 0.875em;
+    font-family: "GothamLight";
+    text-transform: uppercase; }
   #_features i:before {
     text-align: center;
     margin: 0;
@@ -316,11 +323,14 @@ section {
 .resize {
   padding: 0 10% 0 10%; }
 
-#_technology h1 {
-  text-align: center;
-  font-size: 2.0625em;
-  font-family: "GothamLight";
-  letter-spacing: 1px; }
+#_technology {
+  width: 100%;
+  height: auto; }
+  #_technology h1 {
+    text-align: center;
+    font-size: 2.0625em;
+    font-family: "GothamLight";
+    letter-spacing: 1px; }
 
 .container_tech {
   min-height: 400px;
@@ -358,5 +368,5 @@ section {
       margin-top: 20px;
       font-family: "GothamLight";
       font-weight: 600;
-      color: #91d25d;
+      color: #4c594f;
       font-size: 1.0625em; }
